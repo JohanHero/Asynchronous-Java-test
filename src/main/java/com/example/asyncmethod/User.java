@@ -1,7 +1,8 @@
-package src.main;
+package com.example.asyncmethod;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+//Tells spring to ignore any attributes not listed in the class
 @JsonIgnoreProperties(ignoreUnknown=true)
 public class User {
 
